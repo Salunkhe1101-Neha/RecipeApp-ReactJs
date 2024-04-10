@@ -1,0 +1,62 @@
+.heroDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.heroSection {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px; /* Set a max-width for better readability */
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: row; /* Change to row */
+    justify-content: space-between; /* Adjust alignment */
+    align-items: center; /* Adjust alignment */
+    padding: 20px;
+}
+
+.heroText {
+    flex: 1; /* Allow text to take up remaining space */
+    text-align: center;
+    margin-right: 20px; /* Add margin for spacing */
+}
+
+.mealImage {
+    width: 100%; /* Adjust width */
+    max-height: 150px; /* Reduce height */
+    border-radius: 10px;
+}
+
+.mealCategory {
+    color: #666;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    .heroSection {
+        border-radius: 0;
+    }
+
+    .heroContent {
+        flex-direction: column; /* Change to column layout on smaller screens */
+        align-items: center; /* Center content vertically */
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .mealName {
+        font-size: 20px;
+    }
+
+    .mealCategory {
+        font-size: 16px;
+    }
+}

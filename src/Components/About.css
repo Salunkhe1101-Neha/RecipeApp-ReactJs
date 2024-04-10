@@ -1,0 +1,32 @@
+.About{
+    margin-top: 80px;
+}
+
+.MealsImg
+{
+    height: 250px;
+    margin: 20px;
+}
+
+
+.aboutSec
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#des
+{
+    width: 80%;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.itemName
+{
+    font-size: 16px;
+    
+}

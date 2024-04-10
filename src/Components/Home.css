@@ -1,0 +1,38 @@
+.home
+{
+    margin-top: 40px;
+}
+
+.homeSection{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+    text-align: center;
+    gap: 20px;
+    margin: 10px;
+}
+h2
+{
+    margin-left: 20px;
+}
+.homeSection::-webkit-scrollbar{
+     display: none;
+}
+
+.div2
+{
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(233, 183, 193); */
+}
+
+.section2
+{
+    margin-top: 50px;
+}
+
+.section1
+{
+    height: 360px;
+}
+
